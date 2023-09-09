@@ -15,7 +15,7 @@ Welcome to the Telegram ChatBot with GPT-3, an intelligent conversational bot th
 ## How to Use
 
 1. **Initial Setup**:
-   - Clone this repository using `git clone <link>`
+   - Clone this repository using `git clone https://github.com/Dheovani/ChatBotGPTelegram.git`
    - Create a `.env` file to store your API keys and other sensitive configurations.
 
 2. **Install Dependencies**:
