@@ -3,6 +3,7 @@ import openai as novaai
 import logging
 import nest_asyncio
 import requests
+from translator import Translator
 from PIL import Image
 from io import BytesIO
 from telegram import ForceReply, Update
@@ -80,16 +81,17 @@ async def imagine(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Tells user what the chat can be used for."""
-    await update.message.reply_text(
-        """Welcome to my help menu! I can assist you with various tasks such as answering questions, providing information, setting reminders, and even playing games. Just ask me anything and I'll do my best to assist you!"""
-    )
+    translator = Translator()
+    await update.message.reply_text(translator.get_message(update.effective_user.language_code, "help"))
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
+    translator = Translator()
     user = update.effective_user
+
     await update.message.reply_html(
-        rf"Hi {user.mention_html()}!",
+        rf"{translator.get_message(user.language_code, 'start')} {user.mention_html()}!",
         reply_markup=ForceReply(selective=True),
     )
 

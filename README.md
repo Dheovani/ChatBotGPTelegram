@@ -39,6 +39,13 @@ Welcome to the Telegram ChatBot with GPT-3, an intelligent conversational bot th
 - `/imagine`: The bot will imagine an image according to your description! 💭
 - Any other message will be treated as input for a conversation with the bot. 💬
 
+## TODO list 🗒️
+
+- [x] Add support to image generation.
+- [x] Translate default messages.
+- [ ] Add support to audio.
+- [ ] Add support do media.
+
 ## Customization 🧩
 
 You can customize the bot's behavior by editing the source code in `bot.py` and adding pre-programmed responses or custom logic. 🧬

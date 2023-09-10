@@ -1,0 +1,1018 @@
+{
+    "af": {
+        "name": "Afrikaans",
+        "code": "af",
+        "messages": {
+            "start": "Hallo",
+            "help": "Welkom by my hulpkieslys! Ek kan jou help met verskeie take soos vrae beantwoord, inligting verskaf, herinneringe stel en selfs speletjies speel. Vra my net enigiets en ek sal my bes doen om jou te help!"
+        }
+    },
+    "am": {
+        "name": "Amharic",
+        "code": "am",
+        "messages": {
+            "start": "ታዲያስ",
+            "help": "ወደ የእገዛ ምናሌዬ እንኳን በደህና መጡ! እንደ ጥያቄዎችን መመለስ፣ መረጃ መስጠት፣ አስታዋሾችን ማቀናበር እና ጨዋታዎችን መጫወት ባሉ የተለያዩ ተግባራት ልረዳዎት እችላለሁ። ማንኛውንም ነገር ይጠይቁኝ እና እርስዎን ለመርዳት የተቻለኝን ሁሉ አደርጋለሁ!"
+        }
+    },
+    "ar": {
+        "name": "Arabic",
+        "code": "ar",
+        "messages": {
+            "start": "مرحبا",
+            "help": "مرحبًا بك في قائمة المساعدة الخاصة بي! يمكنني مساعدتك في مهام مختلفة مثل الإجابة على الأسئلة وتقديم المعلومات وتعيين التذكيرات وحتى لعب الألعاب. فقط اسألني أي شيء وسأبذل قصارى جهدي لمساعدتك!"
+        }
+    },
+    "arn": {
+        "name": "Mapudungun",
+        "code": "arn",
+        "messages": {
+            "start": "Hola",
+            "help": "Bienvenido a mi menú de ayuda. Puedo asistirte con diversas tareas como responder preguntas, proporcionar información, configurar recordatorios e incluso jugar juegos. Solo pregúntame cualquier cosa y haré lo mejor posible para ayudarte."
+        }
+    },
+    "as": {
+        "name": "Assamese",
+        "code": "as",
+        "messages": {
+            "start": "নমস্কাৰ",
+            "help": "মোৰ সহায় মেনুলৈ আপোনাক স্বাগতম! মই আপোনাক বিভিন্ন কাম যেনে প্ৰশ্নৰ উত্তৰ দিয়া, তথ্য প্ৰদান কৰা, সোঁৱৰণী নিৰ্ধাৰণ কৰা, আনকি খেল খেলাত সহায় কৰিব পাৰো। মাত্ৰ মোক যিকোনো কথা সুধিব আৰু মই আপোনাক সহায় কৰিবলৈ যৎপৰোনাস্তি চেষ্টা কৰিম!"
+        }
+    },
+    "az": {
+        "name": "Azerbaijani",
+        "code": "az",
+        "messages": {
+            "start": "Salam",
+            "help": "Kömək menyuma xoş gəlmisiniz! Mən sizə suallara cavab vermək, məlumat vermək, xatırlatmalar qurmaq və hətta oyun oynamaq kimi müxtəlif tapşırıqlarda kömək edə bilərəm. Sadəcə məndən bir şey soruşun və sizə kömək etmək üçün əlimdən gələni edəcəyəm!"
+        }
+    },
+    "ba": {
+        "name": "Bashkir",
+        "code": "ba",
+        "messages": {
+            "start": "Сәлем",
+            "help": "Min işe kömәk menyuıa xismet itә sĕne qalalğan suallarğa jawab berergә, mağımattı, yağız zärä vәziyetlärne alarğa, yaşıt oynawı çıqarğa belän xismet qıla ğan. Турында минне сора, меннән тиң максатларга хуласый йапарым!"
+        }
+    },
+    "be": {
+        "name": "Belarusian",
+        "code": "be",
+        "messages": {
+            "start": "Прывітанне",
+            "help": "Сардэчна запрашаем у маю меню дапамогі! Я магу вам дапамагчы з рознымі задачамі, такімі як адказ на пытанні, прадастаўленне інфармацыі, наладжванне нагадванняў, і нават гуляць у гульні. Проста спытайце мяне любое пытанне, і я буду рабіць усё магчымае, каб дапамагчы!"
+        }
+    },
+    "bg": {
+        "name": "Bulgarian",
+        "code": "bg",
+        "messages": {
+            "start": "Здравей",
+            "help": "Добре дошли в менюто за помощ! Мога да ви помогна с различни задачи като отговор на въпроси, предоставяне на информация, задаване на напомняния и дори да играя игри. Просто попитайте ме нещо и ще направя всичко възможно, за да ви помогна!"
+        }
+    },
+    "bn": {
+        "name": "Bengali",
+        "code": "bn",
+        "messages": {
+            "start": "হ্যালো",
+            "help": "আমার সাহায্য মেনুতে আপনাকে স্বাগতম! আমি আপনাকে প্রশ্নের উত্তর দিতে, তথ্য সরবরাহ করতে, স্মরণ নির্ধারণ করতে এবং খেলার সুযোগ সরবরাহ করতে পারি। আমি বলুন, আমি সহায়ক হতে চেষ্টা করব!"
+        }
+    },
+    "bo": {
+        "name": "Tibetan",
+        "code": "bo",
+        "messages": {
+            "start": "བཀྲ་ཤིས་བདེ",
+            "help": "ངའི་སྤྱོད་ཡོད་ཀྱང་གི་སྨར་མེད་ཁོང་། ངའི་སྤྱོད་ཡོད་འདི་སྐབས་བྱིན་ཞིག་ཡིན་པས་ཡོད་རོང་ཚོགས་རང་བསྡུར་གྱི་དོན་ལུ་ངོས་འགྱུར་བཅོས་པའི་ནང་བསྡོམས་འབད་དོ། མིའི་གླེང་དུ་ཁྱད་པར་ངལ་ཡོད་འདིའི་ནང་བསྡོམས་དང་སྨར་སྣོན་འདི་ངམ་གསལ་ཐུབ་ཡོད་ཚུགས་པའི་དོན་ཚུགས་དང་ཡང་ཡོད་ཆེར་གྱིས་ངམ་ལས་འདི་བཏང་སྲོལ་བའི་དོན་བཅད་བསོད་པ་མིའི་ཚུགས་པ་དང་ཡོད་ཀྱི་གོ་རང་རྡོ་རྗེ་སློབ་ཐང་བ་ཡོད་པའི་དོན་བཅད་བསྡོམས་གང་གསལ་འདི་ཡོད་ཆེར་གྱི་ངམ་ལས་འདི་གསུངས་པ་བསང་གི་དོན་གྱི་བཀོད་པ་དང་བླངས་པ་བཀོད་པ་ཡིན།"
+        }
+    },
+    "br": {
+        "name": "Breton",
+        "code": "br",
+        "messages": {
+            "start": "Salud",
+            "help": "Degemer mat da ma meneg c'hoar! Gallout a ran sikour ac'hanoc'h evit labourioù dibar evel respont d'e goulennoù, dispakañ titouroù, lakaat alamanioù ha, memestra, c'hoari ur c'hoari. Roit din goulenn ebet ha kemm ho talvoudusoc'h da virout!"
+        }
+    },
+    "bs": {
+        "name": "Bosnian",
+        "code": "bs",
+        "messages": {
+            "start": "Zdravo",
+            "help": "Dobrodošli u moj meni za pomoć! Mogu vam pomoći s raznim zadacima kao što su odgovaranje na pitanja, pružanje informacija, postavljanje podsjetnika i čak igranje igara. Samo pitajte me bilo što i dat ću sve od sebe da vam pomognem!"
+        }
+    },
+    "ca": {
+        "name": "Catalan",
+        "code": "ca",
+        "messages": {
+            "start": "Hola",
+            "help": "Benvinguts al meu menú d'ajuda! Puc ajudar-vos amb diverses tasques com respondre preguntes, proporcionar informació, establir recordatoris i fins i tot jugar a jocs. Només pregunteu-me qualsevol cosa i faré el possible per ajudar-vos!"
+        }
+    },
+    "co": {
+        "name": "Corsican",
+        "code": "co",
+        "messages": {
+            "start": "Bonghjornu",
+            "help": "Benvinuti à u mio menu d'aiutu! Pòiu aiutavvi cun diverse taccie cum'è risponde a e dumande, furnisce infurmazione, stabilisce rimembranze è ancu ghjucà à eghjare. Dumandatemi qualsiasi cosa è farò u pussibule per aiutavvi!"
+        }
+    },
+    "cs": {
+        "name": "Czech",
+        "code": "cs",
+        "messages": {
+            "start": "Ahoj",
+            "help": "Vítejte v mém nápovědném menu! Mohu vám pomoci s různými úkoly, jako je zodpovídání otázek, poskytování informací, nastavování připomínek a dokonce i hraní her. Stačí se mě na cokoliv zeptat a já udělám maximum pro vaši pomoc!"
+        }
+    },
+    "cy": {
+        "name": "Welsh",
+        "code": "cy",
+        "messages": {
+            "start": "Helo",
+            "help": "Croeso i fy nghymorth! Gallaf eich helpu gyda nifer o dasgau fel ateb cwestiynau, rhoi gwybodaeth, gosod atgoffadau, a hyd yn oed chwarae gemau. Gofynnwch i mi unrhyw beth a byddaf yn gwneud fy ngorau i'ch helpu!"
+        }
+    },
+    "da": {
+        "name": "Danish",
+        "code": "da",
+        "messages": {
+            "start": "Hej",
+            "help": "Velkommen til min hjælpemenu! Jeg kan hjælpe dig med forskellige opgaver som at besvare spørgsmål, give information, indstille påmindelser og endda spille spil. Bare spørg mig om noget, og jeg vil gøre mit bedste for at hjælpe dig!"
+        }
+    },
+    "de": {
+        "name": "German",
+        "code": "de",
+        "messages": {
+            "start": "Hallo",
+            "help": "Willkommen in meinem Hilfemenü! Ich kann Ihnen bei verschiedenen Aufgaben wie dem Beantworten von Fragen, der Bereitstellung von Informationen, dem Einrichten von Erinnerungen und sogar beim Spielen von Spielen helfen. Fragen Sie mich einfach nach allem, und ich werde mein Bestes tun, um Ihnen zu helfen!"
+        }
+    },
+    "dsb": {
+        "name": "Lower Sorbian",
+        "code": "dsb",
+        "messages": {
+            "start": "Hoj",
+            "help": "Witajće do mojeje pomocneje molwe! Móžu wam z róžnymi zadaćemi pomhać, kak přećelować woprašenja, dalować informacije, nastajić připomnjenki a dokelž dawać sej hrać. Přećelće so ma pósym na wšo a wulke so, až wam pomhać!"
+        }
+    },
+    "dv": {
+        "name": "Divehi",
+        "code": "dv",
+        "messages": {
+            "start": "މިދިވެހި",
+            "help": "މިހާރަ މެންޑުރުން ލެވަލަން! މިއަންނަ ތަނަކުން ތަނަކުންއަށް ފުޅުނުކޮށް އަންހަދަކަށް ފަހުން ބަލައްވުމަކުން ކޮށް ކިލަމް ހިންގްނަބަ ބަލައްވުމަކުން! ނަން މިނިވެހި މިޔާއަކަށް މަކެއް ފީހުން ކުޅުނުކުންއަށް!"
+        }
+    },
+    "el": {
+        "name": "Greek",
+        "code": "el",
+        "messages": {
+            "start": "Γειά σας",
+            "help": "Καλώς ήρθατε στο μενού βοήθειάς μου! Μπορώ να σας βοηθήσω με διάφορες εργασίες, όπως απάντηση σε ερωτήσεις, παροχή πληροφοριών, ρύθμιση υπενθυμίσεων και ακόμη και να παίξω παιχνίδια. Απλά ρωτήστε με οτιδήποτε και θα κάνω το καλύτερο που μπορώ για να σας βοηθήσω!"
+        }
+    },
+    "en": {
+        "name": "English",
+        "code": "en",
+        "messages": {
+            "start": "Hello",
+            "help": "Welcome to my help menu! I can assist you with various tasks such as answering questions, providing information, setting reminders, and even playing games. Just ask me anything, and I'll do my best to assist you!"
+        }
+    },
+    "es": {
+        "name": "Spanish",
+        "code": "es",
+        "messages": {
+            "start": "Hola",
+            "help": "¡Bienvenido a mi menú de ayuda! Puedo ayudarte con diversas tareas como responder preguntas, proporcionar información, configurar recordatorios e incluso jugar juegos. ¡Solo pregúntame cualquier cosa y haré lo mejor posible para ayudarte!"
+        }
+    },
+    "et": {
+        "name": "Estonian",
+        "code": "et",
+        "messages": {
+            "start": "Tere",
+            "help": "Tere tulemast minu abimenüüsse! Ma saan teid aidata erinevate ülesannetega, nagu küsimustele vastamine, teabe pakkumine, meeldetuletuste seadistamine ja isegi mängude mängimine. Lihtsalt küsige mult midagi ja teen oma parima, et teid aidata!"
+        }
+    },
+    "eu": {
+        "name": "Basque",
+        "code": "eu",
+        "messages": {
+            "start": "Kaixo",
+            "help": "Ongi etorri nire laguntza menuan! Niri lagundu dezaket galderak erantzuteko, informazioa emateko, gogorapenak ezartzeaz, eta jokoak ere jolasteaz. Eskatu zerbait eta egingo dut nire ahalegina zure laguntzeko!"
+        }
+    },
+    "fa": {
+        "name": "Persian",
+        "code": "fa",
+        "messages": {
+            "start": "سلام",
+            "help": "خوش آمدید به منوی کمک من! من می‌توانم به شما در انجام وظایف مختلفی مانند پاسخ به سوالات، ارائه اطلاعات، تنظیم یادآورها و حتی بازی کردن کمک کنم. فقط از من هر چیزی بپرسید و من بهترین کمک را به شما ارائه خواهم داد!"
+        }
+    },
+    "fi": {
+        "name": "Finnish",
+        "code": "fi",
+        "messages": {
+            "start": "Hei",
+            "help": "Tervetuloa apuvalikkooni! Voin auttaa sinua monenlaisissa tehtävissä, kuten vastaamisessa kysymyksiin, tiedon antamisessa, muistutusten asettamisessa ja jopa pelien pelaamisessa. Kysy vain minulta mitä tahansa, ja teen parhaani auttaakseni sinua!"
+        }
+    },
+    "fil": {
+        "name": "Filipino",
+        "code": "fil",
+        "messages": {
+            "start": "Kamusta",
+            "help": "Maligayang pagdating sa aking menu ng tulong! Maari akong tumulong sa iyo sa iba't ibang gawain tulad ng pagsagot sa mga tanong, pagbibigay ng impormasyon, pagtatakda ng mga paalala, at pati na rin sa paglalaro ng mga laro. Magtanong ka lang ng kahit ano at gagawin ko ang aking makakaya upang tumulong sa iyo!"
+        }
+    },
+    "fo": {
+        "name": "Faroese",
+        "code": "fo",
+        "messages": {
+            "start": "Hallo",
+            "help": "Vælkomin til hjálpartilboð mítt! Eg kann hjálpa tær við ymsum uppgávum, so sum at svara spurningum, geva kunning, seta áminningar og eisini spæla leikir. Ber bara spurningum eina, og eg skal gera mitt yvirbest at hjálpa tær!"
+        }
+    },
+    "fr": {
+        "name": "French",
+        "code": "fr",
+        "messages": {
+            "start": "Bonjour",
+            "help": "Bienvenue dans mon menu d'aide ! Je peux vous assister dans diverses tâches telles que répondre aux questions, fournir des informations, définir des rappels, et même jouer à des jeux. Il vous suffit de me poser une question, et je ferai de mon mieux pour vous aider !"
+        }
+    },
+    "fy": {
+        "name": "Frisian",
+        "code": "fy",
+        "messages": {
+            "start": "Hallo",
+            "help": "Wolkom yn myn helpmenu! Ik kin jo help biede mei ferskate taken lykas it beäntwurdzjen fan fragen, ferstrekken fan ynformaasje, it ynstellen fan herinnerings en sels spultsjes spylje. Frege mar wat en ik sil myn bêst dwaan om jo te helpen!"
+        }
+    },
+    "ga": {
+        "name": "Irish",
+        "code": "ga",
+        "messages": {
+            "start": "Dia dhuit",
+            "help": "Fáilte go dtí mo roghchlár cabhrach! Is féidir liom cabhrú leat le tascanna éagsúla cosúil le freagra a thabhairt ar cheisteanna, faisnéis a chur ar fáil, an cuimhnigh a shocrú, agus fiú cluichí a imirt. Ná héanfaigh orm aon rud ach d'iarraidh orm agus déanfaidh mé mo dhícheall chun cabhrú leat!"
+        }
+    },
+    "gd": {
+        "name": "Scottish Gaelic",
+        "code": "gd",
+        "messages": {
+            "start": "Halò",
+            "help": "Fàilte gu mo chlàr freagairt! 'S urrainn dhomh cuideachadh leat le tàlantan eadar-dhealaichte mar freagairt air ceistean, lìbhrigeadh fiosrachaidh, sònrachadh cuimhnich, agus fiùs cluich. Cuir ceistean sam bith orm a-mhàin, agus bidh mi a' dèanamh mo dhìcheall gus cuideachadh leat!"
+        }
+    },
+    "gl": {
+        "name": "Galician",
+        "code": "gl",
+        "messages": {
+            "start": "Ola",
+            "help": "Benvido ao meu menú de axuda! Podo axudarte con diferentes tarefas como responder a preguntas, fornecer información, configurar recordatorios e incluso xogar xogos. Só tes que preguntarme algo e farei o meu mellor para axudarte!"
+        }
+    },
+    "gsw": {
+        "name": "Swiss German",
+        "code": "gsw",
+        "messages": {
+            "start": "Hoi",
+            "help": "Willkomme im mym Hilfsmenü! Ich cha dir bim Erfülle vo verschiedene Ufgabe wie Frage beatworte, Informatione zur Verfüegig stelle, Ainerigge stelle und sogar Spiil spiele helfe. Frag mi eifach irgendöppis und ich gib alles, um dir z'hälfe!"
+        }
+    },    
+    "gu": {
+        "name": "Gujarati",
+        "code": "gu",
+        "messages": {
+            "start": "નમસ્તે",
+            "help": "મારી સહાય મેન્યુમાં આપની સહાય કરી શકું! મારી પાસે વિવિધ કાર્યોમાં સહાય મળી શકે છે, ઉદાહરણ તરીકે પ્રશ્નોનો જવાબ આપવો, માહિતી આપવી, અને સ્મરણપત્રક સેટ કરવું, અને સાથે ખેલવું. મને બધુ પ્રશ્ન કરો અને મારું શ્રેષ્ઠ કરવું માટે આપની સહાય કરીશું!"
+        }
+    },
+    "ha": {
+        "name": "Hausa",
+        "code": "ha",
+        "messages": {
+            "start": "Sannu",
+            "help": "Yau kuwa da ku don girma ga menun kyawun ku! Zan iya taimakawa ku tare da ayyukan da suke so kamar yin bayanai, bayyana bayanan, saka jinjinawa, kuma kuma wasa. Don Allah ku tambaya mini abin da kuke so da kuma zan yi abin da ya kamata don taimakawa ku!"
+        }
+    },
+    "he": {
+        "name": "Hebrew",
+        "code": "he",
+        "messages": {
+            "start": "שָׁלוֹם",
+            "help": "ברוך הבא לתפריט העזרה שלי! אני יכול לעזור לך עם מגוון משימות כמו לענות על שאלות, לספק מידע, להגדיר תזכורות ואפילו לשחק משחקים. רק שאל אותי כל שאלה ואני אעשה את המיטב כדי לעזור לך!"
+        }
+    },
+    "hi": {
+        "name": "Hindi",
+        "code": "hi",
+        "messages": {
+            "start": "नमस्ते",
+            "help": "मेरे सहायता मेनू में आपका स्वागत है! मैं आपको विभिन्न कार्यों में सहायता कर सकता हूँ जैसे कि सवालों के जवाब देना, जानकारी प्रदान करना, याददाश्त सेट करना, और खेल भी सकता हूँ। बस मुझसे कुछ भी पूछें और मैं आपकी मदद करने के लिए अपनी सर्वोत्तम कोशिश करूँगा!"
+        }
+    },
+    "hr": {
+        "name": "Croatian",
+        "code": "hr",
+        "messages": {
+            "start": "Dobar dan",
+            "help": "Dobrodošli u moj izbornik pomoći! Mogu vam pomoći s raznim zadacima kao što su odgovaranje na pitanja, pružanje informacija, postavljanje podsjetnika i čak igranje igara. Samo pitajte bilo što i dat ću sve od sebe da vam pomognem!"
+        }
+    },
+    "hsb": {
+        "name": "Upper Sorbian",
+        "code": "hsb",
+        "messages": {
+            "start": "Witaj",
+            "help": "Witajće w mojej pomocy! Mohu wam pomhać při rěznymych zadaćach, kak na přećišćenje na zapitki, wobdźěłanje informacijow, nastajenje připomnjenkow a hrać hry. Zachće sy wšo, štož sy so přewjesć, a sym dalše sy skutku"
+        }
+    },
+    "hu": {
+        "name": "Hungarian",
+        "code": "hu",
+        "messages": {
+            "start": "Helló",
+            "help": "Köszöntelek a segítség menümben! Segíthetek különféle feladatokban, például kérdések megválaszolásában, információ nyújtásában, emlékeztetők beállításában, és akár játékokat is játszhatunk. Csak kérdezz tőlem bármit, és mindent megteszek, hogy segítsek neked!"
+        }
+    },
+    "hy": {
+        "name": "Armenian",
+        "code": "hy",
+        "messages": {
+            "start": "բարև",
+            "help": "Բարի գալուստ իմ օգնությունի ընտրացանկում! Ես կարող եմ օգնել ձեզ անպայման առաջարկելու նպատակով, ինչպես հարցերին պատասխանել, տեղեկություն տալու նպատակով, հիշերի սահմանումով և նաև խաղացում: Միայն հարցեր հարցնեք և ես ավելիքս կարող եմ անել, որ օգնեմ ձեզ!"
+        }
+    },
+    "id": {
+        "name": "Indonesian",
+        "code": "id",
+        "messages": {
+            "start": "Halo",
+            "help": "Selamat datang di menu bantuan saya! Saya dapat membantu Anda dengan berbagai tugas seperti menjawab pertanyaan, memberikan informasi, mengatur pengingat, dan bahkan bermain game. Hanya tanyakan kepada saya apa saja dan saya akan melakukan yang terbaik untuk membantu Anda!"
+        }
+    },
+    "ig": {
+        "name": "Igbo",
+        "code": "ig",
+        "messages": {
+            "start": "Ndewo",
+            "help": "Nke a bụla nke ndewo menu m! A nwere ike ịmịto gị na izu oke dị ka njikọ, ịgbasa akwụkwọ, ịhanye ndịnma, na ịga eji aka na ịdabere okike. Jụọ nye m gbasara ọnye gị n'anya na m ga-akwụ ịmalite ịdị otu gị!"
+        }
+    },
+    "ii": {
+        "name": "Yi",
+        "code": "ii",
+        "messages": {
+            "start": "Nga-su",
+            "help": "Su-ru-ngu-su-re ha-pi suu mi-lyong ku dzy hi du-ku li kha-li ku di-mi ru lio-la, lio-lianq gi mi-wunq-i, mi-so-nqu du mi-si ga ngu niung mi-si-nqu ha-mi-li li su lai-mi-li. Li gu-dzy bi, li qhau di ku du mi hi li ku li-la su le li hi!"
+        }
+    },
+    "is": {
+        "name": "Icelandic",
+        "code": "is",
+        "messages": {
+            "start": "Halló",
+            "help": "Velkomin á hjálparvaldið mitt! Ég geti hjálpað þér við ýmis verkefni, svo sem að svara spurningum, veita upplýsingar, stilla áminningar og jafnvel spila leiki. Bara spurtu mig hvað sem er og ég mun gera mitt besta til að hjálpa þér!"
+        }
+    },
+    "it": {
+        "name": "Italian",
+        "code": "it",
+        "messages": {
+            "start": "Benvenuti",
+            "help": "Benvenuti nel mio menu di aiuto! Posso assistervi in varie attività come rispondere a domande, fornire informazioni, impostare promemoria e persino giocare. Chiedetemi qualsiasi cosa e farò del mio meglio per assistervi!"
+        }
+    },
+    "iu": {
+        "name": "Inuktitut",
+        "code": "iu",
+        "messages": {
+            "start": "ᐃᓄᒃᑎᑐᑦ",
+            "help": "ᐃᓄᒃᑎᑐᑦ ᐃᓄᒃᑎᑐᑦ ᐃᓄᒃᑎᑐᑦ! ᐅᑉᓗᐊ ᑕᓪᓗᖓᑦᑐᖅ ᐃᓄᒃᑎᑐᑦᑐᖅ ᐅᑉᓗᐊᓂ ᐃᓅᓯᕐᒥᒃ ᑭᓇᓱᒍᑎᓐᓂ, ᒥᕐᓄᓴᖅ ᐱᕙᓪᓕᐅᖃᑦᓯᓐᓂ, ᖕᒥᓱᑦᑐᖅ ᐱᕐᓇᒡᓕᒫ ᓄᓇᕕᒃᓴᖅᑕᐃᓯᓂ ᐊᖏᕐᓄᓚᕋᖅᑕᐃᓯᓐᓂᑦ. ᐃᓅᓯᕐᓂᖓᑦᓯᓂ ᐊᒻᒪᔭᖅᑦᓯᓂᕐᓄᓇᖅ!"
+        }
+    },
+    "ja": {
+        "name": "Japanese",
+        "code": "ja",
+        "messages": {
+            "start": "こんにちは",
+            "help": "私のヘルプメニューへようこそ！質問に答えたり、情報を提供したり、リマインダーを設定したり、ゲームをしたりするなど、さまざまなタスクをサポートできます。何でも聞いてください、最善を尽くしてお手伝いさせていただきます！"
+        }
+    },
+    "ka": {
+        "name": "Georgian",
+        "code": "ka",
+        "messages": {
+            "start": "გამარჯობა",
+            "help": "მისი დახმარების მენიუში მოგესალმებით! შემიძლია დაგეხმაროთ რამდენიმე დავალება, როგორიცაა კითხვების პასუხება, ინფორმაციის მიწოდება, გაცნობის დაყენება და წვდომა თამაშებს. მხარდაჭერამდე მხარდაჭერამდე შემკუებელი ვარ თქვენი სახელით!"
+        }
+    },
+    "kk": {
+        "name": "Kazakh",
+        "code": "kk",
+        "messages": {
+            "start": "Сәлем",
+            "help": "Менің көмек менюімге қош келдіңіз! Сізге сұрауларға жауап беру, ақпарат беру, ескертпе орнату және де ойын ойнау керек болса, маған ненені қоя алатын сұрау жасаңыз, менің ең жақсы қызметімді жасауға жұмыс жасаймын!"
+        }
+    },
+    "kl": {
+        "name": "Greenlandic",
+        "code": "kl",
+        "messages": {
+            "start": "Aluu",
+            "help": "Iluani naaggaatit! Iluani ilisimasarlu atuarneqarpoq, taakkuunngitsoq, ingerlaavartumik atorneqarput, aamma taanna oqaluttuarlugu. Ulloq nalunaarutit, una ilisimasaqarni nalunaarutigisassaqarni angalanerlugu!"
+        }
+    },
+    "km": {
+        "name": "Khmer",
+        "code": "km",
+        "messages": {
+            "start": "ជំរាបសួរ",
+            "help": "សូមស្វាគមន៍ទៅកាន់ម៉ឺនុយជំរាបរបស់ខ្ញុំ! ខ្ញុំអាចជួយអ្នកនូវភារកិច្ចផ្សេងៗដូចជាការឆ្លើយលើសំនួរកំរិត, ផ្តល់ពត៌មាន, កំណត់ការជូនដំណឹង និងការលេងហ្គេម។ សួរអ្នកអ្នកបានអ្នកអ្នកឲ្យនូវអ្វីដែលអ្នកចង់ដឹង និងខ្ញុំនឹងធ្វើមធ្យោបាយពីគ្រប់ប្រភេទ។"
+        }
+    },
+    "kn": {
+        "name": "Kannada",
+        "code": "kn",
+        "messages": {
+            "start": "ಹಲೋ",
+            "help": "ನನ್ನ ಸಹಾಯ ಮೆನುಗೆ ಸುಸ್ವಾಗತ! ನಾನು ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರ ಕೊಡುವುದಿಲ್ಲ, ಮಾಹಿತಿ ನೀಡುವುದಿಲ್ಲ, ಆಗಾಗ್ಗೆ ಆಚೆಗೆ ನೆನಪುಗಳನ್ನು ಹಚ್ಚುವುದಿಲ್ಲ ಮತ್ತು ಆಟಗಳನ್ನು ಆಡುವುದಿಲ್ಲವೇಕೆಂದರೆ ನಾನು ಸಹಾಯ ಮಾಡಲಾರೆ!"
+        }
+    },
+    "ko": {
+        "name": "Korean",
+        "code": "ko",
+        "messages": {
+            "start": "안녕하세요",
+            "help": "내 도움말 메뉴에 오신 것을 환영합니다! 질문에 답하거나 정보를 제공하고 알림 설정 및 게임도 할 수 있습니다. 무엇이든 물어보세요, 최선을 다해 도와드리겠습니다!"
+        }
+    },
+    "kok": {
+        "name": "Konkani",
+        "code": "kok",
+        "messages": {
+            "start": "हॅलो",
+            "help": "म्हणजे माझ्या सहाय्य मेनूमध्ये आपले स्वागत आहे! मी प्रश्नांकिता उत्तर देऊ शकतो, माहिती पुरवू शकतो, स्मरण प्रस्तुत करू शकतो आणि आपल्याला खेळू शकतो. कुठल्या विचाराची विचारणा करा आणि मी आपल्याला सर्व काही करण्याची कोशिश करेन!"
+        }
+    },
+    "ckb": {
+        "name": "Kurdi",
+        "code": "ckb",
+        "messages": {
+            "start": "سڵاو",
+            "help": "به‌خۆش ئەوەی لەم مێنیوی یارمەتیماندا بگریت! ئەتوانین بەرزترین وەزیفەکانی خۆتانی بکەین وەکو وه‌ڵام دانانی پرسیاریان، پشتیوانی زانیاری دانان، دابەش کردنی ئاگاداری وتایبەتی کردن لەمیشکیانە. ته‌نیا بپرسن و ئه‌نجامی باشترین بدرێت!"
+        }
+    },
+    "ky": {
+        "name": "Kyrgyz",
+        "code": "ky",
+        "messages": {
+            "start": "Саламатсызбы",
+            "help": "Менин жардам менюмга кош келдиңиз! Сизге суроолорга жооп берүү, маалымат берүү, чыгарманы түзүү жана дажалар оюндоо болуп саналат. Тек суроо кылыңыз, мен чоң жардам берүүгө мүмкүнчүлүк берет!"
+        }
+    },
+    "lb": {
+        "name": "Luxembourgish",
+        "code": "lb",
+        "messages": {
+            "start": "Moien",
+            "help": "Wëllkomm zu mengem Hëllefsmenü! Ech kann Iech mat verschiddenen Aufgaben hëllefen, wéi Äntwerten op Froen, Informatiounen bereedstellen, Erënnerunge setze, an och Spiller spillen. Froën Deeg, ech maachen meng bescht fir Iech ze ënnerstëtzen!"
+        }
+    },
+    "lo": {
+        "name": "Lao",
+        "code": "lo",
+        "messages": {
+            "start": "ສະບາຍດີ",
+            "help": "ຍິນດີຕ້ອນຮັບເມືອງຂອງຂ້ອຍ! ຂ້ອຍສາມາດຊ່ວຍປະເທດທ່ານກ່ຽວກັບວຽກສອນ, ສະຖານະການຂໍ້ມູນ, ຕັ້ງກະທູ້, ແລະມາຍການດຽວ. ຕິດຕາມຂ້ອຍຫຼືສິ່ງຫຼືຖ້າຫາກໍລວມຈາກທ່ານ!"
+        }
+    },
+    "lt": {
+        "name": "Lithuanian",
+        "code": "lt",
+        "messages": {
+            "start": "Sveiki",
+            "help": "Sveiki atvykę į mano pagalbos meniu! Aš galiu jums padėti su įvairiais uždaviniais, tokius kaip atsakymai į klausimus, informacijos teikimas, priminimų nustatymas ir netgi žaidimų žaidimas. Tiesiog klauskitės manęs bet kokių klausimų, ir aš darysiu viską, kad jums padėčiau!"
+        }
+    },
+    "lv": {
+        "name": "Latvian",
+        "code": "lv",
+        "messages": {
+            "start": "Sveiki",
+            "help": "Laipni lūdzam manā palīdzības izvēlnē! Es varu palīdzēt jums ar dažādām uzdevumu veikšanu, piemēram, atbildēt uz jautājumiem, sniegt informāciju, iestatīt atgādinājumus un pat spēlēt spēles. Jautājiet man jebko, un es darīšu visu, lai jums palīdzētu!"
+        }
+    },
+    "mi": {
+        "name": "Maori",
+        "code": "mi",
+        "messages": {
+            "start": "Kia ora",
+            "help": "Haere mai ki taku pānui āwhina! Ka āwhina ahau ki ētahi mahi tino rereke, pērā i te whakautu i ngā pātai, te whiwhi māramatanga, te whakararuraru i ngā whakamaharahara, ā, he rorohiko hoki. Āpiti noa ki ahau i ngā whakapau kaha, ā, ka whakapau kaha ahau ki te āwhina i a koe!"
+        }
+    },
+    "mk": {
+        "name": "Macedonian",
+        "code": "mk",
+        "messages": {
+            "start": "Здраво",
+            "help": "Добредојдовте во мојот мени за помош! Можам да ви помогнам со разни задачи како одговарање на прашања, обезбедување на информации, поставување на потсетници, и дури и играње на игри. Просто прашајте ме за било што и јас ќе се потрудам да ви помогнам!"
+        }
+    },
+    "ml": {
+        "name": "Malayalam",
+        "code": "ml",
+        "messages": {
+            "start": "ഹലോ",
+            "help": "എന്നെ സഹായിക്കാൻ നിന്നെതിരിക്കുന്നതിനാൽ എനിക്ക് അനുഗ്രഹിക്കുന്നത് നിന്നാണ്! ഞാൻ ചോദ്യങ്ങൾക്ക് ഉത്തരം നൽകാനും, വിവരങ്ങൾ നൽകാനും, ഓർമ്മകളുടെ സജ്ജമാക്കാനും, വിളിക്കപ്പെട്ട പേരിൽ ആടാനും എനിക്ക് സാധിക്കും!"
+        }
+    },
+    "mn": {
+        "name": "Mongolian",
+        "code": "mn",
+        "messages": {
+            "start": "Сайн байна уу",
+            "help": "Миний тусламжийн цэс руу тавтай морилно уу! Та бидний асуултанд хариулах, мэдээлэл өгөх, сануулга тохируулах болон тоглоомуудыг зохицуулах зорилгоор бидэнд санал болгоно уу. Та Ѳдрийг юу ч асуух болно, би таныг амархан тусгайлан тусгайлана!"
+        }
+    },
+    "moh": {
+        "name": "Mohawk",
+        "code": "moh",
+        "messages": {
+            "start": "Kwe kwe",
+            "help": "Onenh\"wa'tòn:ra ne ón:wa tsi tsi niiohtonkwariwa'ks ne ón:wa! Ne ón:wa skennen ne ón:wa ieh ihontsianihkhwathahkwa'ks ne í:ken ien' nęie! Onenh\"wa'tòn:ra ne ón:wa nonwa'kaie ne ón:wa ronwatiatsiatahkwariwa'ks tsi tanon ohontsianihkhwathahkwa'ks. Sati ohontsianihkhwathahkwa'ks tsi niiohtonkwariwa'ks!"
+        }
+    },
+    "mr": {
+        "name": "Marathi",
+        "code": "mr",
+        "messages": {
+            "start": "नमस्कार",
+            "help": "माझ्या सहाय्य मेनूमध्ये आपल्याला स्वागत आहे! मी आपल्याला विविध कामांमध्ये मदतीकरण करू शकतो, जसे की प्रश्नांच्या उत्तरे देणे, माहिती प्रदान करणे, स्मरणी ठेवणे आणि खेळायच्या. केवळ मला काहीच विचारा आणि मी आपल्याला मदतीकरण करण्याच्या सर्वात उत्तम प्रयत्न करेन!"
+        }
+    },
+    "ms": {
+        "name": "Malay",
+        "code": "ms",
+        "messages": {
+            "start": "Selamat",
+            "help": "Selamat datang ke menu bantuan saya! Saya boleh membantu anda dengan pelbagai tugas seperti menjawab soalan, menyediakan maklumat, menetapkan peringatan, dan malah bermain permainan. Hanya tanya saya apa-apa sahaja dan saya akan cuba yang terbaik untuk membantu anda!"
+        }
+    },
+    "mt": {
+        "name": "Maltese",
+        "code": "mt",
+        "messages": {
+            "start": "Bongu",
+            "help": "Merħba fil-meni tal-għajnuna tiegħi! Jista 'ninfurmawk b'diversi xi ħidma bħall-ġibu ta 'mistoqsijiet, it-twaqqigħ ta' informazzjoni, it-twaqqigħ ta 'dikjarazzjonijiet, u anki t-taħriġ tal-logħob. Just agħtini kwalunkwe mistoqsija u jekk jogħġbok, se nistenna biex ngħinuk!"
+        }
+    },
+    "my": {
+        "name": "Burmese",
+        "code": "my",
+        "messages": {
+            "start": "မင်္ဂလာပါ",
+            "help": "ကျွန်ုပ်တို့၏ အကူအညီစာမျက်နှာသို့ ကူညီပါသည်။ သင့်အနေဖြင့် မေးခွန်းများကို အဖြေတွင် ဖြည့်ဆည်းနိုင်သည်။ မိမိကို ဘယ်လိုမျှတမှု လုပ်နိုင်သလဲဆိုတာကို မေးခွန်းတစ်ခုမှကြိုဆိုပါက သင်မတော်ဆို ကျေးဇူးပြု၍ ကိုယ်ရေးသူအား ကိုယ်ပိုင်အနန္တနှင့် အဆင့်အနေနှင့် တက်ရောက်နိုင်သော ဧည့်သည်!"
+        }
+    },
+    "nb": {
+        "name": "Norwegian (Bokmål)",
+        "code": "nb",
+        "messages": {
+            "start": "Hei",
+            "help": "Velkommen til hjelpemenyen min! Jeg kan hjelpe deg med ulike oppgaver som å svare på spørsmål, gi informasjon, sette påminnelser og til og med spille spill. Bare spør meg om hva som helst, og jeg vil gjøre mitt beste for å hjelpe deg!"
+        }
+    },
+    "ne": {
+        "name": "Nepali",
+        "code": "ne",
+        "messages": {
+            "start": "नमस्ते",
+            "help": "मेरो सहयोग मेनूमा स्वागत छ! म तिमीलाई प्रश्नको उत्तर दिन, जानकारी प्रदान गर्न, स्मरण गर्न र खेल खेल्न पनि सहयोग गर्न सक्दछु। कुनै प्रश्न पूछ्नुहोस् र म म सँग कसै पनि कुनै कुरा पूछ्ने पर्दैन भने म तिम्रो सहयोग गर्न प्रयास गर्नेछु!"
+        }
+    },
+    "nl": {
+        "name": "Dutch",
+        "code": "nl",
+        "messages": {
+            "start": "Hallo",
+            "help": "Welkom bij mijn helpmenu! Ik kan je helpen met verschillende taken zoals vragen beantwoorden, informatie verstrekken, herinneringen instellen en zelfs spelletjes spelen. Vraag me gewoon om iets en ik zal mijn best doen om je te helpen!"
+        }
+    },
+    "nn": {
+        "name": "Norwegian (Nynorsk)",
+        "code": "nn",
+        "messages": {
+            "start": "Hei",
+            "help": "Velkommen til hjelpemenyen min! Eg kan hjelpe deg med ulike oppgåver som å svare på spørsmål, gi informasjon, setje påminningar og til og med spele spel. Berre spør meg om noko, og eg skal gjere mitt beste for å hjelpe deg!"
+        }
+    },
+    "no": {
+        "name": "Norwegian",
+        "code": "no",
+        "messages": {
+            "start": "Hei",
+            "help": "Velkommen til hjelpemenyen min! Jeg kan hjelpe deg med ulike oppgaver som å svare på spørsmål, gi informasjon, sette påminnelser og til og med spille spill. Bare spør meg om noe som helst, og jeg vil gjøre mitt beste for å hjelpe deg!"
+        }
+    },
+    "st": {
+        "name": "Sesotho",
+        "code": "st",
+        "messages": {
+            "start": "Lumela",
+            "help": " Lumela ka menyetla ya boitšo! Kea u amohela le dithulusela tsa hau tse peli tsa ho tseba tšehetso, ho fana ka mesebetsi, ho hlahloba ho feta le ho fetola dipatlisiso. Ho tšoarela kea ka ntho e kholo, 'me kea u thusa ka hore ke utloisisa hantle!"
+        }
+    },
+    "oc": {
+        "name": "Occitan",
+        "code": "oc",
+        "messages": {
+            "start": "Adieu",
+            "help": "Benvenguda dins la mena d'ajuda mia! Pòdi vos ajudar amb diferentas tâchas coma respondre a las questions, fornir d'informacions, ajustar de remembranças e tanben jogar de jòcs. Demandatz-me çò que volètz e farai çò melhor per vos ajudar!"
+        }
+    },
+    "or": {
+        "name": "Odia",
+        "code": "or",
+        "messages": {
+            "start": "ନମସ୍କାର",
+            "help": "ମୋ ସାହାୟ୍ୟ ମେନୁରେ ସ୍ୱାଗତମ! ମୋ ଆପନଙ୍କୁ ବିଭିନ୍ନ କାର୍ଯ୍ୟଗୁଡ଼ିକ ସହାଯ଼ କରିପାରିବି, ଯେଉଁଥିରେ ପ୍ରଶ୍ନାମାଜା ଉତ୍ତର ଦେବା, ସୂଚନା ପ୍ରଦାନ କରିବା, ସମୟରେ ସୂଚନା ଦେବା ଏବଂ ଖେଳିବାକୁ ମଦତି କରିପାରେ। କୌଣସି ପ୍ରଶ୍ନ ମାଗିବା ଏବଂ ମୁଁ ଆପଣଙ୍କୁ ସହାୟତା କରିବା ଚେଷ୍ଟା କରିବୁ!"
+        }
+    },
+    "pa": {
+        "name": "Punjabi",
+        "code": "pa",
+        "messages": {
+            "start": "ਹੈਲੋ",
+            "help": "ਮੇਰੀ ਮਦਦ ਮੀਨੂ ਵਲੋਂ ਜ਼ਾਇਦਾ ਮੰਗ ਦੀ ਗਈ ਟਾਸਕਾਂ ਦੇ ਨਾਲ ਤੁਹਾਨੂੰ ਸਹਾਇਤਾ ਦੇ ਸਕਦੀ ਹੈ, ਜਿਵੇਂ ਸਵਾਲਾਂ ਦੇ ਉੱਤਰ ਦੇਣ, ਜਾਣਕਾਰੀ ਪ੍ਰਦਾਨ ਕਰਨ, ਸੁਚੇਤਨਾਵਾਂ ਸੈੱਟ ਕਰਨ, ਅਤੇ ਵਿਗਤਾਂ ਖੇਡਣ ਦੇ ਨਾਲ। ਬਸ ਮੇਨੂੰ ਕੁਝ ਵੀ ਪੁੱਛੋ ਅਤੇ ਮੈਂ ਆਪਣੀ ਸਭ ਤੋਂ ਵਧੀਆ ਸਹਾਇਤਾ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਾਂਗਾ!"
+        }
+    },
+    "pl": {
+        "name": "Polish",
+        "code": "pl",
+        "messages": {
+            "start": "Cześć",
+            "help": "Witaj w moim menu pomocy! Mogę pomóc ci w różnych zadaniach, takich jak odpowiadanie na pytania, udzielanie informacji, ustawianie przypomnień, a nawet granie w gry. Po prostu zapytaj mnie o cokolwiek, a postaram się ci pomóc jak najlepiej!"
+        }
+    },
+    "prs": {
+        "name": "Dari",
+        "code": "prs",
+        "messages": {
+            "start": "سلام",
+            "help": "خوش آمدید به منوی کمک من! من می‌توانم به شما در انجام مختلف وظایف مانند پاسخ به سوالات، ارائه اطلاعات، تنظیم یادآوری‌ها و حتی بازی‌ها کمک کنم. فقط از من هر سوالی بپرسید و من تلاش خود را می‌کنم تا به شما کمک کنم!"
+        }
+    },
+    "ps": {
+        "name": "Pashto",
+        "code": "ps",
+        "messages": {
+            "start": "سلام",
+            "help": "زما ساتچې مينې ته خوش امدید! زه تاسو ته مختلفه کارونه کړم سوه د پوښتنې جوابونه، معلوماتو ترڅنګونه، يادونه تنظيمول، او حتی کله چاک بلول. زه هره څوک چې تاسو يې څه مينه کړۍ نو تاسو ته د خپله سره مخه کولای شم."
+        }
+    },
+    "pt": {
+        "name": "Portuguese",
+        "code": "pt",
+        "messages": {
+            "start": "Olá",
+            "help": "Bem-vindo ao meu menu de ajuda! Posso ajudar você com várias tarefas, como responder a perguntas, fornecer informações, definir lembretes e até mesmo jogar jogos. Basta me perguntar qualquer coisa e farei o meu melhor para ajudar você!"
+        }
+    },
+    "pt-br": {
+        "name": "Portuguese",
+        "code": "pt-br",
+        "messages": {
+            "start": "Olá",
+            "help": "Bem-vindo ao meu menu de ajuda! Posso ajudar você com várias tarefas, como responder a perguntas, fornecer informações, definir lembretes e até mesmo jogar jogos. Basta me perguntar qualquer coisa e farei o meu melhor para ajudar você!"
+        }
+    },
+    "quc": {
+        "name": "K'iche",
+        "code": "quc",
+        "messages": {
+            "start": "Qa'ij",
+            "help": "Chiwach utzij k'utb'al! Chikoj k'u winaq chi' utzij ri k'utb'al ri nab'e' chikopon, chi' ajtz'ib'äl, chi' qanpikar q'amama' ri, chikopon ri qan chik'amik ri wi' chi' laj wi' utzij ri. Xin k'ij ri k'utb'al chi ri chiqab'i' chikamik chiqatx'ib'äl k'ab'äl."
+        }
+    },
+    "qu": {
+        "name": "Quechua",
+        "code": "qu",
+        "messages": {
+            "start": "Rimaykullayki",
+            "help": "Ñuqaqa yachanichu qespilla! Ñuqaqa yachanichu kanmi ñuqaqa yapariyta kaniwa, kanmi ñuqaqa yachanichu sumaqmi qillqanmi, sumaqmi ñuqaqa yapariyta kaniwa, chaypi ñuqaqa yachanichu suyaypita kaniwa. Manañanichu chaymiypi kaniwa kaniwa kanmi chaymiypi kaniwa sumaqmi ñuqaqa yaparichu!"
+        }
+    },
+    "rm": {
+        "name": "Romansh",
+        "code": "rm",
+        "messages": {
+            "start": "Allegra",
+            "help": "Bainvgnüts en il menu d'agid! Jau poss ina gidanza per tschertas lavurs sco responder a dumondas, dar infurmaziuns, regular reminiscenzas ed era jauccar. Dumonda simplamain memia co e jau far il meglier per gidar!"
+        }
+    },
+    "ro": {
+        "name": "Romanian",
+        "code": "ro",
+        "messages": {
+            "start": "Salut",
+            "help": "Bine ați venit la meniul meu de ajutor! Pot să vă ajut cu diverse sarcini, cum ar fi răspunsul la întrebări, furnizarea de informații, setarea de mementouri și chiar jocuri. Doar întrebați-mă orice și voi face tot posibilul să vă ajut!"
+        }
+    },
+    "ru": {
+        "name": "Russian",
+        "code": "ru",
+        "messages": {
+            "start": "Привет",
+            "help": "Добро пожаловать в мое меню помощи! Я могу помочь вам с различными задачами, такими как ответы на вопросы, предоставление информации, установка напоминаний и даже игры. Просто спросите меня о чем угодно, и я постараюсь сделать все возможное, чтобы вам помочь!"
+        }
+    },
+    "rw": {
+        "name": "Kinyarwanda",
+        "code": "rw",
+        "messages": {
+            "start": "Muraho",
+            "help": "Murakaza neza kuri menu yanjye y'ubufasha! Ndagufasha kubona ibikorwa byinshi kubera gukora amakuru, kubaza ibisobanuro, kureba ubutumwa, kandi kugaragaza abandi gusa. Hagarika kubibaza ikintu cyose n'ubwo nshobora kubufasha byiza!"
+        }
+    },
+    "sa": {
+        "name": "Sanskrit",
+        "code": "sa",
+        "messages": {
+            "start": "नमस्ते",
+            "help": "मम याचना सूचीम् आगच्छति! अहम् तव विविधकानि कार्याणि कारयामि यथा प्रश्नानां उत्तरं ददामि, विवरणानि प्रदास्यामि, स्मरणपत्राणि नियमयामि च, यद्यपि खेलानि च। केवलं मां किंचित् पूछसि तदानीम्, अहम् तव सर्वश्रेष्ठम् कारयिष्यामि!"
+        }
+    },
+    "sah": {
+        "name": "Yakut",
+        "code": "sah",
+        "messages": {
+            "start": "Саһалахтыыр",
+            "help": "Менэй холбоону баар! Манна туруоргун тус буоруну туруорум, саҥаарыынан саҕатаммын, элбэх салалларын баар, уонна тилиними бэйэммит көрдөрүм. Атын суох, туһаныы ыйытыма араарыыкка тэкилитин туһунан бу киирии тилийэхтин билиим!"
+        }
+    },
+    "se": {
+        "name": "Sami (Northern)",
+        "code": "se",
+        "messages": {
+            "start": "Buorre beaivvi",
+            "help": "Buorre dohko min veahki meahcce! Mun buvttadin du válddán vejolasčoakkáldaga, mearridihtojuvvo, aiddojuvvo bieggaide ja hui árvvojuvvo. Ráhkista gilvvuid mu bargat!"
+        }
+    },
+    "si": {
+        "name": "Sinhala",
+        "code": "si",
+        "messages": {
+            "start": "හෙලෝ",
+            "help": "මම ඔයාගේ උදව්ව මෙනුවෙනි! මම ඔයාගේ ඉල්ලීම්, තොරතුරු, සැකසෙමින් සැකසුම්, ආදර්ශනින් උයනේ හෝ තුළු ක්‍රීඩා දර්ශන් සැකසුම් සැකසීම සහිතව උත්සාවක්. කිසිදු වාක්කයක් මම විදානගත් වෙයිද සැමට සහාය වන්ද?"
+        }
+    },
+    "sk": {
+        "name": "Slovak",
+        "code": "sk",
+        "messages": {
+            "start": "Ahoj",
+            "help": "Vitajte v mojom menu pomoci! Môžem vám pomôcť s rôznymi úlohami, ako sú odpovede na otázky, poskytovanie informácií, nastavovanie pripomienok a dokonca aj hranie hier. Stačí sa ma na niečo spýtať, a ja sa pokúsim čo najlepšie pomôcť!"
+        }
+    },
+    "sl": {
+        "name": "Slovenian",
+        "code": "sl",
+        "messages": {
+            "start": "Zdravo",
+            "help": "Dobrodošli v mojem pomočnem meniju! Lahko vam pomagam pri različnih opravilih, kot so odgovarjanje na vprašanja, zagotavljanje informacij, nastavljanje opomnikov in celo igranje iger. Samo vprašajte me karkoli in bom naredil/a vse, kar lahko, da vam pomagam!"
+        }
+    },
+    "sma": {
+        "name": "Sami (Southern)",
+        "code": "sma",
+        "messages": {
+            "start": "Buorre beaivvi",
+            "help": "Buorre dohko min veahki meahcce! Mun buvttadin du válddán vejolasčoakkáldaga, mearridihtojuvvo, aiddojuvvo bieggaide ja hui árvvojuvvo. Ráhkista gilvvuid mu bargat!"
+        }
+    },
+    "smj": {
+        "name": "Sami (Lule)",
+        "code": "smj",
+        "messages": {
+            "start": "Buorre beaivvi",
+            "help": "Buorre dohko min veahki meahcce! Mun buvttadin du válddán vejolasčoakkáldaga, mearridihtojuvvo, aiddojuvvo bieggaide ja hui árvvojuvvo. Ráhkista gilvvuid mu bargat!"
+        }
+    },
+    "smn": {
+        "name": "Sami (Inari)",
+        "code": "smn",
+        "messages": {
+            "start": "Buorre beaivvi",
+            "help": "Buorre dohko min veahki meahcce! Mun buvttadin du válddán vejolasčoakkáldaga, mearridihtojuvvo, aiddojuvvo bieggaide ja hui árvvojuvvo. Ráhkista gilvvuid mu bargat!"
+        }
+    },
+    "sms": {
+        "name": "Sami (Skolt)",
+        "code": "sms",
+        "messages": {
+            "start": "Buorre beaivvi",
+            "help": "Buorre dohko min veahki meahcce! Mun buvttadin du válddán vejolasčoakkáldaga, mearridihtojuvvo, aiddojuvvo bieggaide ja hui árvvojuvvo. Ráhkista gilvvuid mu bargat!"
+        }
+    },
+    "sq": {
+        "name": "Albanian",
+        "code": "sq",
+        "messages": {
+            "start": "Përshëndetje",
+            "help": "Mirë se vini në menunë time të ndihmës! Mund të ju ndihmoj me shumë detyra si përgjigjja e pyetjeve, sigurimi i informacionit, vendosja e kujtesave dhe madje luajtja e lojërave. Thjesht më pyesni diçka dhe unë do të bëj të gjithë të mundurën për t'ju ndihmuar!"
+        }
+    },
+    "sr": {
+        "name": "Serbian",
+        "code": "sr",
+        "messages": {
+            "start": "Здраво",
+            "help": "Добродошли у мој мени за помоћ! Могу вам помоћи са различитим задацима као што су одговори на питања, пружање информација, постављање потсетника и чак играње игара. Само питајте ме било шта и ја ћу се потрудити да вам помогнем!"
+        }
+    },
+    "sv": {
+        "name": "Swedish",
+        "code": "sv",
+        "messages": {
+            "start": "Hej",
+            "help": "Välkommen till min hjälpmeny! Jag kan hjälpa dig med olika uppgifter som att svara på frågor, ge information, ställa in påminnelser och till och med spela spel. Bara fråga mig vad som helst, och jag ska göra mitt bästa för att hjälpa dig!"
+        }
+    },
+    "sw": {
+        "name": "Kiswahili",
+        "code": "sw",
+        "messages": {
+            "start": "Habari",
+            "help": "Karibu kwenye menyu yangu ya msaada! Naweza kusaidia na majukumu mbalimbali kama kutoa majibu kwa maswali, kutoa habari, kuweka kumbukumbu, na hata kucheza michezo. Niulize chochote na nitajitahidi kutoa msaada bora!"
+        }
+    },
+    "syc": {
+        "name": "Syriac",
+        "code": "syc",
+        "messages": {
+            "start": "ܟܠܗܐ",
+            "help": "ܫܪ̈ܐ ܢܫܦܐ ܠܡܢܘܐܢܝܬܐ ܕܒܪܝܐܐ! ܐܢܬ ܢܫܦܐ ܠܥܒܕܝܢ ܡܢ ܡܚܒ̈ܕܝܢ, ܬܪܝܢ ܚܫܝܦܝܢ, ܬܘܬܪܡܢ ܩܕܡܢ ܘܒܣܬܩܢ ܚܢܢ ܐܠܡܢ. ܟܠܗܐ ܒܐܢܬ ܐܠܡܢ ܘܐܢܬܐ ܡܢܢܝܢ ܐܠܬ ܟܝܢܬܝ ܬܫܚܛܢ ܒܐܫܬܕܝܢ ܗ̱ܘܡܢ!"
+        }
+    },
+    "ta": {
+        "name": "Tamil",
+        "code": "ta",
+        "messages": {
+            "start": "வணக்கம்",
+            "help": "என் உதவி மெனுவில் வருக! நீங்கள் கேட்கும் கேள்விகளுக்கு பதில் கொடுக்க, தகவல் வழங்க, அறிவிக்க உத்தமமாக உத்தமமாக அமரவும், விளையாட்டுகள் ஆட உத்தமமாக அமரவும் உங்களை உத்தமமாக உத்தமமாக உத்தமமாக செய்ய விரும்பின்றது!"
+        }
+    },
+    "te": {
+        "name": "Telugu",
+        "code": "te",
+        "messages": {
+            "start": "హలో",
+            "help": "నా సహాయ మెనూలో స్వాగతం! మీరు వివిధ కార్యాలను చేయగలరు, ప్రశ్నలకు సమాధానాలు ఇస్తే, సమాచారం అందించగలరు, గుమ్మరించేందుకు మరియు ఆటలు ఆడగలరు. ఏమిటి కోరుకుంటున్నారా మరియు నాకు మాటేం ప్రశ్న అన్ని మాటలు చెప్పండి, నాకు మాటలు చెప్పడానికి నాను మీటపెట్టినట్లు ప్రయాణించున్నాను!"
+        }
+    },
+    "tg": {
+        "name": "Tajik",
+        "code": "tg",
+        "messages": {
+            "start": "Салом",
+            "help": "Хуш омадед ба менюи кумаки ман! Ман метавонам бо кардани вазифаҳои мухталиф месаввиретан, ҷавобҳои саволҳоро дода, маълумотҳои фарохонӣ дода, езозаҳоро танзим кунам ва ҳатто бозӣ. Ягон чизи пурсолав буро бекшоед ва ман ба шумо кумак мекунам!"
+        }
+    },
+    "th": {
+        "name": "Thai",
+        "code": "th",
+        "messages": {
+            "start": "สวัสดี",
+            "help": "ยินดีต้อนรับสู่เมนูความช่วยเหลือของฉัน! ฉันสามารถช่วยคุณในงานต่าง ๆ เช่น ตอบคำถาม, ให้ข้อมูล, ตั้งค่าการเตือน และแม้กระทั่งการเล่นเกม แค่ถามฉันเกี่ยวกับสิ่งใดก็ได้และฉันจะพยายามช่วยคุณเสมอ!"
+        }
+    },
+    "tk": {
+        "name": "Turkmen",
+        "code": "tk",
+        "messages": {
+            "start": "Salam",
+            "help": "Meniň ýardam menýuma hoş geldiňiz! Men size çeşme-çeşme işleriň ýerine ýetirmege, soraglaryňyz üçin jogap bermäge, maglumatlary taýýarlamağa we hatda oýnamaga kömek edýärin. Şuňa görä, näme üçin käbir şaýlaw sorap bilersiňiz we men siz üçin ýokary gurallary ýerine ýetirýärin!"
+        }
+    },
+    "tn": {
+        "name": "Tswana",
+        "code": "tn",
+        "messages": {
+            "start": "Dumela",
+            "help": "Robala ka dinako tše mpe! Ke ka nna o ka thusa le ditlhopho tše tša go itlhomamisa, go bapala dipotso, go latela tshedimosetso le go ola dimilo. Bula kamoso ka selo se sengwe le ke ka go thusa!"
+        }
+    },
+    "tr": {
+        "name": "Turkish",
+        "code": "tr",
+        "messages": {
+            "start": "Merhaba",
+            "help": "Benim yardım menüme hoş geldiniz! Soruları yanıtlama, bilgi verme, hatırlatıcıları ayarlama ve hatta oyun oynama gibi farklı görevlerde size yardımcı olabilirim. Sadece bana herhangi bir şey sorun ve size yardımcı olmak için elimden geleni yaparım!"
+        }
+    },
+    "tt": {
+        "name": "Tatar",
+        "code": "tt",
+        "messages": {
+            "start": "Сәлам",
+            "help": "Минем мөгъай менюга рәхим итегез! Мин сезгә һиппы явап бирергә, мәгълүмат бирергә, үзгәрткәнчекләрне саларга һәм тапкыр ачуга ыараҡлы булырсыз һәм адунын игенче биткисен ыйыкларга һил итеп алырсыз. Якты юкләгез кирәкле мөнән берсез һәм мин ыараҡ итеп биререм!"
+        }
+    },
+    "tzm": {
+        "name": "Tamazight",
+        "code": "tzm",
+        "messages": {
+            "start": "ⴰⵔⴰⵔ ⵏⵏⴰ",
+            "help": "ⴰⵙⴷ ⵉⴷⴷ ⴷⴰⵡ ⴷⴰⵏⵙ ⴰⵏⴻⵎⵙⵓⵏ! ⴰⵏⵙ ⵓⵔⵓ ⴰⵍⴷⵓⴳⵏ ⴰⵙⵙⵓⴰⴷ ⴷⴰⵙ ⴰⵡⵙⵙⴰⵖ ⴰⴷⴷ ⵉⴷⴷⴷ ⴰⵔⴰⵏ ⴷⴰⵔ ⴷⴰⵙ ⴷⴰⵣⴰⵡⵛⴰⵡ ⴰⴷⴷ ⴷⴰⵔ ⴷⴰⵏⴼⵙⵓⴷ ⴰⴷⴷ ⵄⵓⵙⴰⵣ ⴰⵙⴷⵔⴷⵙ ⴰⵡⴰⴱⴰⵏ ⴰⴷⴷ ⴷⴰⴷⴷⴰⵏ ⴰⵕⵕⴰⵏ ⴰⴷⴷ ⴷⴰⵡⴻⵖ ⴰⴷⴷ ⵇⵇⴰⴷⴷ ⴷⴰⵟⴰⵖ ⴰⴷⴷ ⵃⴰⵜⴷⴰⴷⴷⴰⵖ ⴷⴰⵏⵏⴰ ⴰⵏⴻⵎⵙⵓⵏ!"
+        }
+    },
+    "ug": {
+        "name": "Uyghur",
+        "code": "ug",
+        "messages": {
+            "start": "سالام",
+            "help": "مەنىڭ ياردەم مەنىۋىمۇغا خوش كەلديڭىز! مەن سىزگە ئىشلەرنى چەكلەش، سوئاللارغا جاۋاب بەرگەچ، ئۇچۇر تەييارلاش، يادلاشتۇرۇشنى تەڭشەش ۋە ئاتتۇرىل جۇڭغۇلاش كىرەك بولىمۇن ۋە دىققەت قىلغاندا باشقا چېكىپ ۋاقىتتىكى ئويناشقا ھەم ئايلىنىشقا بولىدۇ. ھەر نەرسىنى سوراڭ ۋە مەن سىزگە ياردەم بەرمەكچى بولىمۇ!"
+        }
+    },
+    "uk": {
+        "name": "Ukrainian",
+        "code": "uk",
+        "messages": {
+            "start": "Привіт",
+            "help": "Ласкаво просимо до моєго меню довідки! Я можу допомогти вам з різними завданнями, такими як відповідь на питання, надання інформації, налаштування нагадувань і навіть гра в ігри. Просто запитайте мене що-небудь, і я зроблю все можливе, щоб вам допомогти!"
+        }
+    },
+    "ur": {
+        "name": "Urdu",
+        "code": "ur",
+        "messages": {
+            "start": "ہیلو",
+            "help": "میرے مدد مینو مینو میں خوش آمدید! میں آپ کو مختلف کاموں میں مدد کرسکتا ہوں جیسے سوالات کا جواب دینا، معلومات فراہم کرنا، انتباہات کو ترتیب دینا اور حتی کھیل کھیلنے میں مدد کرنا۔ صرف مجھ سے کچھ بھی پوچھیں اور میں آپ کی مدد کرنے کے لئے پوری کوشش کروں گا!"
+        }
+    },
+    "uz": {
+        "name": "Uzbek",
+        "code": "uz",
+        "messages": {
+            "start": "Salom",
+            "help": "Men menyuga xush kelibsiz! Men sizga turli xil vazifalarni bajarishda, savollarga javob berishda, ma'lumotlar berishda, eslatmalarni sozlashda va hatto o'yin o'ynashda yordam bera olishim mumkin. Faqat menga nimani so'rang va men sizga yordam bermoqchi bo'lsam, har qanday ishni bajarishga harakat qilaman!"
+        }
+    },
+    "vi": {
+        "name": "Vietnamese",
+        "code": "vi",
+        "messages": {
+            "start": "Xin chào",
+            "help": "Chào mừng bạn đến với menu trợ giúp của tôi! Tôi có thể giúp bạn trong nhiều nhiệm vụ khác nhau như trả lời câu hỏi, cung cấp thông tin, thiết lập cảnh báo và thậm chí chơi trò chơi. Chỉ cần hỏi tôi về điều gì đó và tôi sẽ cố gắng giúp bạn!"
+        }
+    },
+    "wo": {
+        "name": "Wolof",
+        "code": "wo",
+        "messages": {
+            "start": "Nopp naa",
+            "help": "Dalal ak menwi moo am menu jekker bi! Moom bëgg naa la wone nopp naa ci njëfandik, lunni yobu nga def, lunni wone duggu ci andad naa, dinu nekk te bëgg naa deef loo loolu ci saaje. Suka naan, wone baax naa yam ak jël buka jàng baax naa ñi! Jàmm nga neen dañuy yoon!"
+        }
+    },
+    "xh": {
+        "name": "Xhosa",
+        "code": "xh",
+        "messages": {
+            "start": "Molo",
+            "help": "Nceda niphumelele endibonisa kwisabelo sam. Ndingakuncitsha nabaphenduli ukungazithumelela, ndikwazi ukunika izinto, ndibaxelela kwaye ndifakela ucezu lwam. Ndithi zikhala into ofanelekayo kodwa ndizoba nezinto zenzekayo ukwenza ukuba ndiphumelelele. Ncedani ukundithumelela into efanelekayo."
+        }
+    },
+    "yo": {
+        "name": "Yoruba",
+        "code": "yo",
+        "messages": {
+            "start": "Bawo",
+            "help": "Gbogbo asaaju mi yoo ma wa fun orukọ mi! Mo le ran e lowo awọn iṣẹda pupọ bi a jẹ aworan ati fun ni ẹnikẹni, Mo le jẹrọ lati da siyanu lori awọn iṣẹda ati lati sise sori ati lati lo siwaju. Gbọdọ pade mi nipasẹ awọn nipa irọ ni o wọ ọna kan. Fun igbadun ati irọ ti o ni ti o ba nipa ohun tó pọ tọju mi, Mo yoo ba i ti ayipada o."
+        }
+    },
+    "zh": {
+        "name": "Chinese",
+        "code": "zh",
+        "messages": {
+            "start": "你好",
+            "help": "欢迎来到我的帮助菜单！我可以帮助您完成各种任务，如回答问题，提供信息，设置提醒，甚至玩游戏。只需问我任何事情，我会尽力帮助您！"
+        }
+    },
+    "zu": {
+        "name": "Zulu",
+        "code": "zu",
+        "messages": {
+            "start": "Sawubona",
+            "help": "Ngiyakwemukela esitsha kulemininingwane yezicelo! Ngiyakwazi ukusiza ekugcineni ezinkulu ezivela ekugcineni, ukujikela izibalo, ukwamukela izaziso nakanye ukudlala izilaleli. Bheka kuphela ngencazelo engihambayo ngingakwenza noma lokhu, faka umyalezo ohamba phambili ngingakwenza konke engingakwenza ukwenza ukuthi ngikwazi ukusiza!"
+        }
+    }    
+}
