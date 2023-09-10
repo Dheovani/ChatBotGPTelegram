@@ -1,5 +1,8 @@
 os
+io
 openai
 logging
 nest_asyncio
 telegram
+pillow
+requests

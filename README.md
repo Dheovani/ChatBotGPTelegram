@@ -36,6 +36,7 @@ Welcome to the Telegram ChatBot with GPT-3, an intelligent conversational bot th
 
 - `/start`: Initiates the conversation with the bot.
 - `/help`: The bot tells you what he can do! 🤖
+- `/imagine`: The bot will imagine an image according to your description! 💭
 - Any other message will be treated as input for a conversation with the bot. 💬
 
 ## Customization 🧩
