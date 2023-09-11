@@ -6,3 +6,5 @@ nest_asyncio
 telegram
 pillow
 requests
+SpeechRecognition
+pydub

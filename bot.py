@@ -3,9 +3,10 @@ import openai as novaai
 import logging
 import nest_asyncio
 import requests
-from translator import Translator
+import speech_recognition as sr
 from PIL import Image
 from io import BytesIO
+from translator import Translator
 from telegram import ForceReply, Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 
@@ -40,7 +41,7 @@ def download_image(url: str, path: str) -> None:
             image = Image.open(BytesIO(response.content))
             image.save(fp=path)
         else:
-            print(f"Failed to download image. Status code: {response.status_code}")
+            raise Exception(f"Failed to download image. Status code: {response.status_code}")
 
     except Exception as e:
         print(f"An error occurred: {str(e)}")
@@ -87,17 +88,37 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
-    translator = Translator()
     user = update.effective_user
+    message = Translator().get_message(update.effective_user.language_code, 'start')
 
     await update.message.reply_html(
-        rf"{translator.get_message(user.language_code, 'start')} {user.mention_html()}!",
+        rf"{message} {user.mention_html()}!",
         reply_markup=ForceReply(selective=True),
     )
 
 
+async def process_audio(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    os.makedirs(os.path.dirname('tmp/audio.aifc'), exist_ok=True)
+    message = update.message
+    audio = message.audio if message.audio is not None else message.voice
+
+    audio_data = await audio.get_file()
+    audio_path = await audio_data.download_to_drive('tmp/audio.aifc')
+
+    recognizer = sr.Recognizer()
+    with sr.AudioFile(str(audio_path)) as source:
+        audio = recognizer.record(source)
+        transcription = recognizer.recognize_google(audio, language=update.effective_user.language_code)
+
+    response = await fetch_response(transcription)
+    await update.message.reply_text(response)
+
+
 async def talk(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Echo the user message."""
+    """
+    Main conversational function.
+    Responsible for calling the function that will send the message to chat-gpt and then answering the user.
+    """
     response = await fetch_response(update.message.text)
     await update.message.reply_text(response)
 
@@ -116,6 +137,9 @@ def main() -> None:
 
     # on non command i.e message - echo the message on Telegram
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, talk))
+
+    # audio messages will use speech-to-text
+    application.add_handler(MessageHandler(filters.AUDIO | filters.VOICE, process_audio))
 
     # Run the bot until the user presses Ctrl-C
     application.run_polling(allowed_updates=Update.ALL_TYPES)
