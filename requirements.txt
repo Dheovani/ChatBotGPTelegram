@@ -1,5 +1,3 @@
-os
-io
 openai
 logging
 nest_asyncio

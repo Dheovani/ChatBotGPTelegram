@@ -8,6 +8,7 @@ from PIL import Image
 from io import BytesIO
 from translator import Translator
 from telegram import ForceReply, Update
+from telegram.constants import ChatAction
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 
 # Set API base and key to nova endpoint
@@ -18,7 +19,9 @@ novaai.api_key = os.getenv('NOVA_API_KEY')
 nest_asyncio.apply()
 
 # Enable logging
+os.makedirs(os.path.dirname('logger/log.txt'), exist_ok=True)
 logging.basicConfig(
+    filename='logs/log.txt',
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO
 )
@@ -98,12 +101,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 async def process_audio(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    os.makedirs(os.path.dirname('tmp/audio.aifc'), exist_ok=True)
+    os.makedirs(os.path.dirname('tmp/audio.wav'), exist_ok=True)
     message = update.message
     audio = message.audio if message.audio is not None else message.voice
 
     audio_data = await audio.get_file()
-    audio_path = await audio_data.download_to_drive('tmp/audio.aifc')
+    audio_path = await audio_data.download_to_drive('tmp/audio.wav')
 
     recognizer = sr.Recognizer()
     with sr.AudioFile(str(audio_path)) as source:
@@ -119,6 +122,7 @@ async def talk(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     Main conversational function.
     Responsible for calling the function that will send the message to chat-gpt and then answering the user.
     """
+    await context.bot.send_chat_action(chat_id=update.message.chat_id, action=ChatAction.TYPING)
     response = await fetch_response(update.message.text)
     await update.message.reply_text(response)
 
