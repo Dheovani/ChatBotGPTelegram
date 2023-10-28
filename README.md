@@ -58,7 +58,7 @@ Contributions are welcome! If you'd like to improve this bot or add new features
 
 ## Acknowledgments 🙏
 
-This project utilizes the [Nova AI](https://nova-oss.com/) GPT-3 API, enabling us to create engaging and enriching conversations. 🌐
+This project uses the Naga AI GPT-3 API, enabling us to create engaging and enriching conversations. 🌐
 
 ## License 📜
 
