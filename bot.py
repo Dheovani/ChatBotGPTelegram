@@ -1,9 +1,8 @@
 import os
-import openai as novaai
+import openai as nagaAPI
 import logging
 import nest_asyncio
 import requests
-import speech_recognition as sr
 from PIL import Image
 from io import BytesIO
 from translator import Translator
@@ -12,14 +11,14 @@ from telegram.constants import ChatAction
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 
 # Set API base and key to nova endpoint
-novaai.api_base = 'https://api.nova-oss.com/v1'
-novaai.api_key = os.getenv('NOVA_API_KEY')
+nagaAPI.api_base = 'https://api.naga.ac/v1'
+nagaAPI.api_key = os.getenv('NAGA_API_KEY')
 
 # Enable multiple loops
 nest_asyncio.apply()
 
 # Enable logging
-os.makedirs(os.path.dirname('logger/log.txt'), exist_ok=True)
+os.makedirs(os.path.dirname('logs/log.txt'), exist_ok=True)
 logging.basicConfig(
     filename='logs/log.txt',
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
@@ -55,20 +54,28 @@ async def fetch_response(message: str) -> str:
     """Connects with the API to find the messages"""
     messages.append({"role": "user", "content": message})
 
-    response = await novaai.ChatCompletion.acreate(
+    response = await nagaAPI.ChatCompletion.acreate(
         model="gpt-3.5-turbo", messages=messages
     )
 
     return response['choices'][0]['message']['content']
 
 
+async def pipe(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Drops an iron pipe"""
+    await context.bot.send_chat_action(chat_id=update.message.chat_id, action=ChatAction.UPLOAD_VIDEO)
+    pipe_mp4 = open(str('./mp4/pipe.mp4'), "rb")
+    await update.message.reply_video(pipe_mp4)
+
+
 async def imagine(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Generates an image according to the user's prompt"""
+    await context.bot.send_chat_action(chat_id=update.message.chat_id, action=ChatAction.UPLOAD_PHOTO)
     messages.append({"role": "user", "content": update.message.text})
     prompt = update.message.text.replace("/imagine", "").strip()
 
     try:
-        response = novaai.Image.create(
+        response = nagaAPI.Image.create(
             prompt=prompt,
             n=1,
             size="1024x1024"
@@ -100,20 +107,17 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     )
 
 
-async def process_audio(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    os.makedirs(os.path.dirname('tmp/audio.wav'), exist_ok=True)
-    message = update.message
-    audio = message.audio if message.audio is not None else message.voice
+async def process_voice_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Transcribes the audio file to text and contact the Nova API to generate a response."""
+    await context.bot.send_chat_action(chat_id=update.message.chat_id, action=ChatAction.TYPING)
 
-    audio_data = await audio.get_file()
-    audio_path = await audio_data.download_to_drive('tmp/audio.wav')
+    audio_data = await update.message.voice.get_file()
+    audio_path = await audio_data.download_to_drive()
+    
+    audio_file = open(str(audio_path), "rb")
+    transcription = nagaAPI.Audio.transcribe("whisper-1", audio_file)
 
-    recognizer = sr.Recognizer()
-    with sr.AudioFile(str(audio_path)) as source:
-        audio = recognizer.record(source)
-        transcription = recognizer.recognize_google(audio, language=update.effective_user.language_code)
-
-    response = await fetch_response(transcription)
+    response = await fetch_response(transcription['text'])
     await update.message.reply_text(response)
 
 
@@ -138,12 +142,13 @@ def main() -> None:
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help))
     application.add_handler(CommandHandler("imagine", imagine))
+    application.add_handler(CommandHandler("pipe", pipe))
 
     # on non command i.e message - echo the message on Telegram
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, talk))
 
     # audio messages will use speech-to-text
-    application.add_handler(MessageHandler(filters.AUDIO | filters.VOICE, process_audio))
+    application.add_handler(MessageHandler(filters.VOICE, process_voice_message))
 
     # Run the bot until the user presses Ctrl-C
     application.run_polling(allowed_updates=Update.ALL_TYPES)

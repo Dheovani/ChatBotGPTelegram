@@ -37,14 +37,16 @@ Welcome to the Telegram ChatBot with GPT-3, an intelligent conversational bot th
 - `/start`: Initiates the conversation with the bot.
 - `/help`: The bot tells you what he can do! 🤖
 - `/imagine`: The bot will imagine an image according to your description! 💭
+- `/pipe`: Drops an iron pipe on the floor! 🔧
 - Any other message will be treated as input for a conversation with the bot. 💬
 
 ## TODO list 🗒️
 
 - [x] Add support to image generation.
 - [x] Translate default messages.
-- [ ] Add support to audio.
+- [x] Add support to audio.
 - [ ] Add support do media.
+- [ ] Add support do files.
 
 ## Customization 🧩
 
