@@ -64,7 +64,7 @@ async def fetch_response(message: str) -> str:
 async def pipe(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Drops an iron pipe"""
     await context.bot.send_chat_action(chat_id=update.message.chat_id, action=ChatAction.UPLOAD_VIDEO)
-    pipe_mp4 = open(str('./mp4/pipe.mp4'), "rb")
+    pipe_mp4 = open(str('./archive/pipe.mp4'), "rb")
     await update.message.reply_video(pipe_mp4)
 
 
@@ -98,13 +98,7 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
-    user = update.effective_user
-    message = Translator().get_message(update.effective_user.language_code, 'start')
-
-    await update.message.reply_html(
-        rf"{message} {user.mention_html()}!",
-        reply_markup=ForceReply(selective=True),
-    )
+    await update.message.reply_photo('./archive/ah shit.jpg')
 
 
 async def process_voice_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:

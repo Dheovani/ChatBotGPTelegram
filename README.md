@@ -34,7 +34,7 @@ Welcome to the Telegram ChatBot with GPT-3, an intelligent conversational bot th
 
 ## Command Examples 📋
 
-- `/start`: Initiates the conversation with the bot.
+- `/start`: Starts the conversation with a warm message. 🥰
 - `/help`: The bot tells you what he can do! 🤖
 - `/imagine`: The bot will imagine an image according to your description! 💭
 - `/pipe`: Drops an iron pipe on the floor! 🔧
