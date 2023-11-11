@@ -45,8 +45,6 @@ Welcome to the Telegram ChatBot with GPT-3, an intelligent conversational bot th
 - [x] Add support to image generation.
 - [x] Translate default messages.
 - [x] Add support to audio.
-- [ ] Add support do media.
-- [ ] Add support do files.
 
 ## Customization 🧩
 
