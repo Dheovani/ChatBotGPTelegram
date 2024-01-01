@@ -6,7 +6,7 @@ import requests
 from PIL import Image
 from io import BytesIO
 from translator import Translator
-from telegram import ForceReply, Update
+from telegram import Update
 from telegram.constants import ChatAction
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 
@@ -21,12 +21,12 @@ nest_asyncio.apply()
 os.makedirs(os.path.dirname('logs/log.txt'), exist_ok=True)
 logging.basicConfig(
     filename='logs/log.txt',
+    filemode='w',
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO
 )
 
-# set higher logging level for httpx to avoid all GET and POST requests being logged
-logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger().setLevel(logging.WARNING)
 
 logger = logging.getLogger(__name__)
 messages = [{"role": "system", "content": "You are an intelligent assistant."}]
@@ -78,7 +78,8 @@ async def imagine(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         response = nagaAPI.Image.create(
             prompt=prompt,
             n=1,
-            size="1024x1024"
+            size="1024x1024",
+            model="sdxl"
         )
 
         path = "tmp/image.jpg"
@@ -87,7 +88,7 @@ async def imagine(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         
     except Exception as e:
         print(f"An exception ocurred: {str(e)}")
-        return await imagine(update, context) # Keep trying to create image until success
+        return await update.message.reply_text(str(e))
 
 
 async def help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -98,6 +99,14 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
+    message = Translator().get_message(update.effective_user.language_code, "start")
+    await update.message.reply_text(f"{message}, {update.effective_user.full_name}")
+
+
+async def restart(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Restarts conversation"""
+    messages.clear()
+    messages.append({"role": "system", "content": "You are an intelligent assistant."})
     await update.message.reply_photo('./archive/ah shit.jpg')
 
 
@@ -134,6 +143,7 @@ def main() -> None:
 
     # on different commands - answer in Telegram
     application.add_handler(CommandHandler("start", start))
+    application.add_handler(CommandHandler("restart", restart))
     application.add_handler(CommandHandler("help", help))
     application.add_handler(CommandHandler("imagine", imagine))
     application.add_handler(CommandHandler("pipe", pipe))
